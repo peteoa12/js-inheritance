@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body{
+	background: black;
+}
+
+
+h1 {
+	position: absolute;
+	top: 50%;
+	left:50%;
+	width: 50%;
+	transform:translate(-50%, -50%);
+	font-family: 'Baloo Bhaina', cursive;
+	font-size: 4em;
+	text-align: center;
+	color:cyan;
+}
+
+
